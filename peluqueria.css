@@ -130,10 +130,7 @@ header img {
     box-sizing: border-box;
 }
 .promocional {
-    min-width: 60%;
-}
-.promocional:active {
-    min-width: 96%;
+    min-width: 80%;
 }
 
 /* Parte derecha */
