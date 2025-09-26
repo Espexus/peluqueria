@@ -49,6 +49,7 @@ header img {
 }
 .milogo {
     margin-right: 1%;
+    flex: 0 0 10%;
 }
 .logotipo {
     border-radius: 50%;
@@ -140,7 +141,7 @@ header img {
     transition: transform 0.3s ease;
 }
 .promocional:hover {
-    transform: scale(1.2);
+    transform: scale(1.12);
 }
 
 /* Parte derecha */
@@ -182,6 +183,7 @@ footer {
     text-align: center;
     font-weight: 100;
 }
+
 
 
 
