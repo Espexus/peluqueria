@@ -34,7 +34,8 @@ header img {
 
 .div_logo {
     display: flex;
-    align-items: left;
+    justify-content: left;
+    align-items: center;
     gap: 4%;
 }
 .titulos {
@@ -47,13 +48,9 @@ header img {
 .subtitulo {
     font-size: 1em;
 }
-.milogo {
-    margin-right: 1%;
-    flex: 0 0 10%;
-}
 .logotipo {
     border-radius: 50%;
-    width: 100px;
+    width: 10%;
 }
 
 /*Segunda parte del header */
@@ -188,6 +185,7 @@ footer {
         font-size: 12px;
     }
 }
+
 
 
 
