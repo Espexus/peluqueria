@@ -36,11 +36,7 @@ header img {
     display: flex;
     justify-content: left;
     align-items: center;
-    gap: 4%;
-}
-.titulos {
-    text-align: center;
-    color: white;
+    gap: 1%;
 }
 .titulo {
     font-size: 1.2em;
@@ -50,7 +46,7 @@ header img {
 }
 .logotipo {
     border-radius: 50%;
-    width: 10%;
+    width: 25%;
 }
 
 /*Segunda parte del header */
@@ -185,6 +181,7 @@ footer {
         font-size: 12px;
     }
 }
+
 
 
 
