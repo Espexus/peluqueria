@@ -183,6 +183,11 @@ footer {
     text-align: center;
     font-weight: 100;
 }
+@media (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
 
 
 
