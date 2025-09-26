@@ -27,6 +27,7 @@ header {
 }
 header img {
     width: 10%;
+    border-radius: 20px;
 }
 
 /* Primer parte del header*/
@@ -62,13 +63,16 @@ header img {
     background-color: rgb(120, 119, 119);
     box-sizing: border-box;
 }
-.contacto img {
-    border-radius: 20%;
-    width: 7.5%;
-}
 .direccion {
     color: white;
     font-size: 1em;
+}
+.enlace {
+    width: 7.5%;
+}
+.enlace-imagen {
+    border-radius: 20%;
+    width: 100%;
 }
 
 /* Contenedor principal */
@@ -171,6 +175,7 @@ footer {
     text-align: center;
     font-weight: 100;
 }
+
 
 
 
