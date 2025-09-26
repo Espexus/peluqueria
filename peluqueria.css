@@ -6,7 +6,7 @@ html {
     font-size: 16px;
 }
 body{
-    width: 100vw;
+    width: 98vw;
     box-sizing: border-box;
     background-image: url("fondo_peluqueria.jpg");
     background-size: cover;
@@ -185,6 +185,7 @@ footer {
         font-size: 12px;
     }
 }
+
 
 
 
