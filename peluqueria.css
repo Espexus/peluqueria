@@ -51,6 +51,7 @@ header img {
 }
 .logotipo {
     border-radius: 50%;
+    width: 20%;
 }
 
 /*Segunda parte del header */
@@ -58,9 +59,7 @@ header img {
 .contacto {
     display: flex;
     gap: 1%;
-    padding: 1.5%;
-    border-radius: 10px;
-    background-color: rgb(120, 119, 119);
+    justify-content: right;
     box-sizing: border-box;
 }
 .direccion {
@@ -175,6 +174,7 @@ footer {
     text-align: center;
     font-weight: 100;
 }
+
 
 
 
