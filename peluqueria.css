@@ -40,13 +40,15 @@ header img {
 }
 .titulo {
     font-size: 1.2em;
+    color: white;
 }
 .subtitulo {
     font-size: 1em;
 }
 .logotipo {
     border-radius: 50%;
-    width: 25%;
+    width: 10%;
+    margin-right: 2%;
 }
 
 /*Segunda parte del header */
@@ -130,11 +132,11 @@ header img {
     box-sizing: border-box;
 }
 .promocional {
-    width: 35%;
+    width: 40%;
     transition: transform 0.3s ease;
 }
 .promocional:hover {
-    transform: scale(1.12);
+    transform: scale(1.6);
 }
 
 /* Parte derecha */
@@ -180,7 +182,11 @@ footer {
     html {
         font-size: 12px;
     }
+    .promocional:hover {
+    transform: scale(2);
 }
+}
+
 
 
 
