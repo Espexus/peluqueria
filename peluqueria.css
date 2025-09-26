@@ -135,7 +135,11 @@ header img {
     box-sizing: border-box;
 }
 .promocional {
-    width: 60%;
+    width: 40%;
+    transition: transform 0.3s ease;
+}
+.promocional:hover {
+    transform: scale(1.5);
 }
 
 /* Parte derecha */
@@ -177,6 +181,7 @@ footer {
     text-align: center;
     font-weight: 100;
 }
+
 
 
 
