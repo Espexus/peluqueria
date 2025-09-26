@@ -83,9 +83,6 @@ header img {
     margin-right: 2%;
     box-sizing: border-box;
 }
-.container img {
-    width: 5%;
-}
 
 /* ahora la izquierda */
 
@@ -93,8 +90,9 @@ header img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 25%;
+    flex: 0 0 25%;
     padding: 1%;
+    gap: 4%;
     box-sizing: border-box;
     background-color: rgba(100, 100, 100, 0.701);
 }
@@ -103,57 +101,59 @@ header img {
     color:rgb(173, 217, 255);
     text-align: center;
 }
-.informacion img {
-    width: 5%;
+.Person {
+    width: 6%;
+    margin-right: 1%;
 }
 .lista {
     display: flex;
     flex-direction: column;
     list-style: none;
-    gap: 2%;
+    gap: 5%;
     font-size: 1em;
     color: white;
-    margin: 4% 0;
+    margin: 10% 0;
 }
 .lemita {
     color: rgb(251, 255, 125);
     font-size: 0.8em;
-    margin-top: 2%;
+    margin-top: 15%;
     text-align: center;
 }
 
 /* Parte central */
 
 .imagen {
-    width: 100%;
-    min-height: 100%;
+    flex: 0 0 50%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
 }
 .promocional {
-    min-width: 80%;
+    width: 60%;
 }
 
 /* Parte derecha */
 
 .cortes {
-    width: 40%;
-    padding: 1%;
+    flex: 0 0 25%;
+    padding: 2%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 5%;
     align-items: center;
+    justify-content: center;
     background-color: rgba(233, 159, 255, 0.31);
 }
 .cortes img {
-    width: 10%;
+    width: 30%;
     box-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 .descripcion_corte {
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     font-style: oblique;
@@ -174,4 +174,5 @@ footer {
     text-align: center;
     font-weight: 100;
 }
+
 
